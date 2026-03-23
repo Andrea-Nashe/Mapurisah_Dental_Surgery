@@ -1,7 +1,7 @@
 /********** Template CSS **********/
 :root {
     --primary: #06A3DA;
-    --secondary: #F57E57;
+    --secondary: #018ABE;
     --light: #EEF9FF;
     --dark: #091E3E;
 }
@@ -27,7 +27,7 @@ h6,
 .btn {
     font-family: 'Jost', sans-serif;
     font-weight: 600;
-    transition: .5s;
+    transition: .4s;
 }
 
 .btn-primary,
@@ -38,11 +38,13 @@ h6,
 .btn-primary:hover {
     background: var(--secondary);
     border-color: var(--secondary);
+    color: #FFFFFF;
 }
 
 .btn-secondary:hover {
-    background: var(--primary);
-    border-color: var(--primary);
+    background: var(--dark);
+    border-color: var(--dark);
+    color: #FFFFFF;
 }
 
 .btn-square {
